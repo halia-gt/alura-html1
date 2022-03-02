@@ -7,7 +7,11 @@
     padding: 30px; /*espaçamento interno ao bloco*/
 }
 
-h1 {
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
     text-align: center;
 }
 
@@ -30,10 +34,6 @@ em strong { /* vai aplicar o efeito em todos os strongs que estiverem dentro de 
 .beneficios {
     background: #FFFFFF;
     padding: 20px;
-}
-
-h2 {
-    text-align: center;
 }
 
 ul {
