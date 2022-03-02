@@ -1,0 +1,11 @@
+body {
+    background: #CCCCCC;
+}
+
+p {
+    text-align: center;
+}
+
+em strong { /* vai aplicar o efeito em todos os strongs que estiverem dentro de uma tag <em>*/
+    color: #FF0000;
+}
