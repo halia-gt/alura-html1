@@ -1,48 +1,91 @@
-#banner {
-    width: 100%;
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px; /*espaçamento interno ao bloco*/
+.caixa {
+    position: relative; /*pra poder alterar onde ela começa*/
+    width: 940px; /*Tamanho decente padrão, pq as telas tem uns 1800 de largura e tal*/
+    margin: 0 auto; /*Pra deixar essa largura de 940 px no centro mesmo se for uma tela maior, o auto faz o cálculo automático da margem*/
+}
+nav {
+    position: absolute;
+    top: 110px; /*O centro da divisão do cabeçalho*/
+    right: 0;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; /*Topo, Direita, Baixo, Esquerda*/
 }
 
-.titulo-centralizado {
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /*Tira o sublinhado padrão do link*/
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
     text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px;
-}
-
-em strong { /* vai aplicar o efeito em todos os strongs que estiverem dentro de uma tag <em>*/
-    color: #FF0000;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-ul {
-    display: inline-block; /*permitir que o elemento bloqueie uma parte da linha, mas eu defino o tamanho e inline  permite alterar as margens*/
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%; /*espaçamento externo ao bloco*/
+    /* background: #CCCCCC; */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*Pra não somar os 30% + os pixels do padding. Assim os 30% são definitivos, então os 30 ou 20px estão dentro dos 30%*/
+    border: 2px #000000 solid;
+    border-radius: 10px;
 }
 
-.imagembeneficios {
-    width: 50%;
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 20px 0 0;
 }

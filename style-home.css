@@ -1,0 +1,48 @@
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px; /*espaçamento interno ao bloco*/
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong { /* vai aplicar o efeito em todos os strongs que estiverem dentro de uma tag <em>*/
+    color: #FF0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block; /*permitir que o elemento bloqueie uma parte da linha, mas eu defino o tamanho e inline  permite alterar as margens*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%; /*espaçamento externo ao bloco*/
+}
+
+.imagembeneficios {
+    width: 50%;
+}
