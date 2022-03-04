@@ -26,3 +26,37 @@ nav a {
     font-size: 22px;
     text-decoration: none; /*Tira o sublinhado padrão do link*/
 }
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /* background: #CCCCCC; */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; /*Pra não somar os 30% + os pixels do padding. Assim os 30% são definitivos, então os 30 ou 20px estão dentro dos 30%*/
+    border: 2px #000000 solid;
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
