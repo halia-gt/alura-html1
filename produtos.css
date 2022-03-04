@@ -1,5 +1,17 @@
 header {
     background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative; /*pra poder alterar onde ela começa*/
+    width: 940px; /*Tamanho decente padrão, pq as telas tem uns 1800 de largura e tal*/
+    margin: 0 auto; /*Pra deixar essa largura de 940 px no centro mesmo se for uma tela maior, o auto faz o cálculo automático da margem*/
+}
+nav {
+    position: absolute;
+    top: 110px; /*O centro da divisão do cabeçalho*/
+    right: 0;
 }
 
 nav li {
